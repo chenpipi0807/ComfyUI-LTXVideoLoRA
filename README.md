@@ -1,30 +1,33 @@
 # ComfyUI-LTXVideoLoRA
 A set of custom nodes enabling LoRA support for LTX Video in ComfyUI.
 
-### 07.02.2025 ⭐ NEW ⭐
+### 08.02.2025 ⭐ NEW ⭐
 
-- Add LoRA support as a individual  **LTXV LoRA Loader** node
-- Add LoRA loader nodes that can be chained (same as **ComfyUI-HunyuanVideoWrapper**)
+- Add LoRA support as a individual  **LTXV LoRA Loader** node > for Lightricks **ComfyUI-LTXVideo**
+- Add LoRA support inside a **LTXV Checkpoint Loader with LoRA** node > for log(td) **ComfyUI-LTXTricks**
+- Add LoRA selector node that can be chained using multiple **LTXV LoRA Selector**
 
-The main code is inspired by Lightricks **ComfyUI-LTXVideo** ([here](https://github.com/Lightricks/ComfyUI-LTXVideo)) and the LoRA nodes are based on the kijai's **ComfyUI-HunyuanVideoWrapper** ([here](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)).
+The purpose of theses node are to enable using the **a-r-r-o-w's finetrainers** ([here](https://github.com/a-r-r-o-w/finetrainers)) LTXV LoRA directly inside ComfyUI.
+
+The main code is inspired by:
+- comfyanonymous **ComfyUI** ([here](https://github.com/comfyanonymous/ComfyUI))
+- Lightricks **ComfyUI-LTXVideo** ([here](https://github.com/Lightricks/ComfyUI-LTXVideo)) 
+- log(td) **ComfyUI-LTXTricks** ([here](https://github.com/logtd/ComfyUI-LTXTricks))
+- kijai **ComfyUI-HunyuanVideoWrapper** ([here](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)) for the LoRA Selector / Block Edit nodes.
 
 ## Installation
 
-Installation via [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) is preferred. Simply search for `ComfyUI-LTXVideoLoRA` in the list of nodes and follow installation instructions.
+#### Installation via ComfyUI-Manager
+
+Installation via [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) is preferred. Simply search for `ComfyUI-LTXVideoLoRA` in the list of nodes.
 
 #### Manual installation
 
-1. Install ComfyUI
-2. Clone this repository to `custom-nodes` folder in your ComfyUI installation directory.
-3. Install the required packages:
-```bash
-cd custom_nodes/ComfyUI-LTXVideoLoRA && pip install -r requirements.txt
-```
-#### For portable ComfyUI installations, run
-```
-.\python_embeded\python.exe -m pip install -r .\ComfyUI\custom_nodes\ComfyUI-LTXVideoLoRA\requirements.txt
-```
+Simply clone this repository to `custom-nodes` folder in your ComfyUI installation directory.
 
 ## Example workflows
 
 #### Text-to-video with LoRA support
+
+[Download workflow](assets/LTXV-T2V-LoRA-Workflow)
+![workflow](assets/LTXV-T2V-LoRA-Workflow.mp4)
