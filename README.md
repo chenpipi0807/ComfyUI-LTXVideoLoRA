@@ -30,4 +30,5 @@ Simply clone this repository to `custom-nodes` folder in your ComfyUI installati
 #### Text-to-video with LoRA support
 
 [Download workflow](assets/LTXV-T2V-LoRA-Workflow)
-![workflow](assets/LTXV-T2V-LoRA-Workflow.mp4)
+
+<video src="assets/LTXV-T2V-LoRA-Workflow.mp4"/>
