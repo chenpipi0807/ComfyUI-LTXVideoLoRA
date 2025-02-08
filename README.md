@@ -31,4 +31,5 @@ Simply clone this repository to `custom-nodes` folder in your ComfyUI installati
 
 [Download workflow](assets/LTXV-T2V-LoRA-Workflow)
 
-<video src="assets/LTXV-T2V-LoRA-Workflow.mp4"/>
+https://github.com/user-attachments/assets/dac3287b-bd79-4e7e-8163-a27c40898be0
+
