@@ -16,20 +16,17 @@ class LTXVLoRALoader:
             "required": {
                 "model": (
                     "MODEL",
-                    {"tooltip", "The LTXV model to apply the LoRA chain."},
-                )
+                    {"tooltip": "The model to apply the LoRA to."},
+                ),
             },
             "optional": {
-                "lora": (
-                    "LORA", 
-                    {"default": None}
-                ),
+                "lora": ("LTXVLORA", {"default": None}),
             }
         }
     
-    FUNCTION = "lora_loader"
     RETURN_TYPES = ("MODEL",)
     RETURN_NAMES = ("model",)
+    FUNCTION = "lora_loader"
     CATEGORY = "LTXVideoLoRA"
     TITLE = "LTXV LoRA Loader"
 
@@ -46,4 +43,4 @@ class LTXVLoRALoader:
                 lora_sd = standardize_lora_key_format(lora_sd)
                 model, _ = load_lora_for_models(model, None, lora_sd, lora_strength, 0)
 
-        return model
+        return (model,)
