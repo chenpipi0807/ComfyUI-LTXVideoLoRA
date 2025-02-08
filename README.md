@@ -29,7 +29,7 @@ Simply clone this repository to `custom-nodes` folder in your ComfyUI installati
 
 ### Text-to-Video with LoRA support (ComfyUI-LTXVideo case)
 
-https://github.com/user-attachments/assets/dac3287b-bd79-4e7e-8163-a27c40898be0
+https://github.com/user-attachments/assets/503845af-8e37-4533-894a-e2d0a8b50792
 
 The Lightricks LTXV version is a special case. In order to use the official nodes without modification, you need to use the **LTXV LoRA Loader** right after the **LTXV Loader** as shown in this following screenshot:
 
@@ -39,7 +39,7 @@ LTXVideo-T2V-LoRA-Workflow : [Download](assets/LTXVideo-T2V-LoRA-Workflow.json)
 
 ### Text-to-Video with LoRA support (ComfyUI-LTXTricks case)
 
-https://github.com/user-attachments/assets/dac3287b-bd79-4e7e-8163-a27c40898be0
+https://github.com/user-attachments/assets/ed00ac23-61d7-497f-ae1b-78d24190d569
 
 The log(td) LTVX version is a more generic case. I've add a simplified **Checkpoint Loader** version that as no CLIP as output (LTXV safetensors contains only the UNET and the VAE) and a input node to chain your LoRAs. Here the loader is followed by the LTXTricks modified model, but you can use this checkpoint loader as a generic one for other LTX Video workflows.
 
