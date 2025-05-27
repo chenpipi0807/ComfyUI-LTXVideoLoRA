@@ -7,6 +7,9 @@ A set of custom nodes enabling LoRA support for LTX Video in ComfyUI.
 - Enhanced mapping logic with partial matching capabilities
 - Added debugging tools for model parameters and LoRA structure analysis
 
+![image](https://github.com/user-attachments/assets/90d7b9f5-9b75-4f8a-bd84-70561cef6d08)
+
+
 ### 25.02.2025
 
 - Update the **LTXV LoRA Loader** node for the **GGUF** support as a generic way
