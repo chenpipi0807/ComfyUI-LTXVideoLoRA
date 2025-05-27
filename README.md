@@ -7,7 +7,8 @@ A set of custom nodes enabling LoRA support for LTX Video in ComfyUI.
 - Enhanced mapping logic with partial matching capabilities
 - Added debugging tools for model parameters and LoRA structure analysis
 
-![image](https://github.com/user-attachments/assets/90d7b9f5-9b75-4f8a-bd84-70561cef6d08)
+![image](https://github.com/user-attachments/assets/d51c735b-215e-42f9-a1a6-922be6c10eab)
+
 
 
 ### 25.02.2025
